@@ -21,7 +21,7 @@ contract DeployRealEstateNFT is Script {
             "Property Shares",
             "SHARE"
         );
-        realEstate.approve(address(fractionalizer), 0); // Token ID 1
+        realEstate.approve(address(fractionalizer), 0);
 
         vm.stopBroadcast();
 
